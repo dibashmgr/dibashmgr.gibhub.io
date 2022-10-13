@@ -27,5 +27,6 @@ function draw () {
     } 
 
 
+    fill (255, 255, 0)
     ellipse(px, py, radius, radius);
 }

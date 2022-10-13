@@ -6,7 +6,7 @@ function setup() {
 }
 
 px = 0
-py = 0
+py =  0
 
 vx = 1
 vy = 1
@@ -26,6 +26,6 @@ function draw () {
         vy = -vy
     } 
 
-    
+
     ellipse(px, py, radius, radius);
 }
